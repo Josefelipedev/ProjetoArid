@@ -1,7 +1,7 @@
 <?php  //127.0.0.1
-define('HOST', 'main_users.mysql.dbaas.com.br');
+define('HOST', '**********');
 define('USER', 'main_users');
-define('PASS', 'Ze94750286@');
+define('PASS', '*********');
 define('DB', 'main_users');
 
 try{
