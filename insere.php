@@ -1,6 +1,6 @@
 <?php 
 
-include "cnc.inc";
+include "../config/cnc.inc";
 
 echo 'estou aqui';
 $name= $_POST['name'];

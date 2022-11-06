@@ -42,10 +42,6 @@ CREATE TABLE `solicitation` (
 -- Extraindo dados da tabela `solicitation`
 --
 
-INSERT INTO `solicitation` (`id_solicitation`, `name`, `level`, `address`, `reference_point`, `coordinates`, `description`) VALUES
-(1, '', '', '', '', '', ''),
-(2, 'gasgfsa', '', '', '', '', ''),
-(3, 'fsa', 'Alta', 'safsaf', 'teste', 'Latitude :-27.01053 Longitude: -48.64695', 'teste');
 
 -- --------------------------------------------------------
 
@@ -65,8 +61,6 @@ CREATE TABLE `users` (
 -- Extraindo dados da tabela `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `created_at`, `fk_solicitation_id_solicitation`) VALUES
-(2, 'josefelipeteste2', '$2y$10$bdFf9g2tmIsayFa.Y2Xh3evZUJHO2IRBCn2l6OP1AkSvFfNohSeO6', '2022-10-28 16:52:43', 0);
 
 --
 -- Índices para tabelas despejadas

@@ -1,6 +1,6 @@
 <?php 
 
-require_once "config.php";
+require_once "../config/config.php";
 
 $name= $_POST['name'];
 $level= $_POST['level'];

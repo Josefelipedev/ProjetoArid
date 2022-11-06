@@ -1,8 +1,8 @@
 <?php  //127.0.0.1
-define('HOST', 'localhost');
-define('USER', 'ehyescte_jose');
-define('PASS', '94750286ze');
-define('DB', 'ehyescte_BancoPrincipal');
+define('HOST', 'main_users.mysql.dbaas.com.br');
+define('USER', 'main_users');
+define('PASS', 'Ze94750286@');
+define('DB', 'main_users');
 
 try{
     $pdo = new PDO("mysql:host=" . HOST . ";dbname=" . DB, USER, PASS);
