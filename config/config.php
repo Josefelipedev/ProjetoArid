@@ -1,7 +1,7 @@
 <?php  //127.0.0.1
-define('HOST', '**********');
-define('USER', 'main_users');
-define('PASS', '*********');
+define('HOST', 'localhost');
+define('USER', 'root');
+define('PASS', '');
 define('DB', 'main_users');
 
 try{

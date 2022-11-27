@@ -1,6 +1,6 @@
 <?php 
 
-require_once "../config/config.php";
+require_once "config.php";
 
 $name= $_POST['name'];
 $level= $_POST['level'];
@@ -25,6 +25,8 @@ if (empty($reference_point)) {
 //Verifica se não houve erro - neste caso chama a include para inserir os dados
 if ($erro == 0) {
 	echo "Todos os dados foram digitados corretamente.<br>";
+	header("Location: ../index.php");
+	
 	include 'insere.php';
 }
 

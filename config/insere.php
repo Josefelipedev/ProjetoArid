@@ -1,8 +1,8 @@
 <?php 
 
-include "../config/cnc.inc";
+include "conn.php";
 
-echo 'estou aqui';
+//echo 'estou aqui';
 $name= $_POST['name'];
 $level= $_POST['level'];
 $address= $_POST['address'];
@@ -16,7 +16,7 @@ $sql .= "('$name','$level','$address','$reference_point','$coordinates','$descri
 
 
 if ($conexao->query($sql) === TRUE) {
-	echo  "Usuário incluído com sucesso!";
+	header("Location: ../index.php");
 } else {
 	echo "Erro: " . $sql . "<br>" . $conexao->error;
 }
